@@ -10,7 +10,8 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./assets/styles/styles.css" />
-    <title>Document</title>
+    <script src="script.js"></script>
+    <title>Impacto Digital</title>
   </head>
   <body>
     <header>
@@ -38,20 +39,20 @@
           <h4>Seja o primeiro a saber!</h4>
           <h5>Prencha o formulário abaixo e nós avisaremos você!</h5>
 
-          <form action="#">
+          <form action="#" method="post" autocomplete="on">
             <label for="name">
               Nome
-              <input type="text" name="name" />
+              <input type="text" id="name" autocomplete="name" required />
             </label>
 
             <label for="email">
               E-mail
-              <input type="email" name="email" id="" />
+              <input type="email" id="email" autocomplete="email" required />
             </label>
 
             <label for="validation">
-              Validation Camp
-              <input type="text" name="validation" />
+              Quanto é 9 + 8?
+              <input type="text" id="validation" required />
             </label>
 
             <button>Me avise!</button>
